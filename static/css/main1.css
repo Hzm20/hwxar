@@ -1,0 +1,135 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: "微软雅黑", Roboto, Arial, sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+#banner {
+	background: url(../images/5dd404628e0e2e3ee9333fbb.png);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: auto; /* 改为自适应高度 */
+}
+
+.join-buttom {
+	padding-top: 15%; /* 根据需要调整间距 */
+	padding-left: 10%; /* 根据需要调整间距 */
+}
+
+.join-buttom a {
+	padding: 10px;
+	border: 3px solid white;
+	color: white;
+	margin-right: 10px;
+	margin-bottom: 15px; /* 修改为垂直方向间距 */
+	display: block; /* 修改为块级元素，便于居中显示 */
+	transition: 0.4s;
+	text-align: center;
+}
+
+.join-item {
+	font-size: 20px; /* 根据需要调整字体大小 */
+	color: white;
+	padding-bottom: 30px; /* 根据需要调整间距 */
+}
+
+.join-item h2 {
+	margin-bottom: 20px; /* 根据需要调整间距 */
+}
+
+.join-buttom a:hover {
+	color: black;
+	background: white;
+}
+
+.item-page-box {
+	padding-top: 10px;
+	width: 90%; /* 根据需要调整宽度 */
+	margin: auto;
+	color: #5F5F5F;
+	padding-left: 5%; /* 根据需要调整间距 */
+}
+
+.item-page-box hr {
+	margin-top: 20px;
+	margin-bottom: 30px; /* 根据需要调整间距 */
+	height: 2px; /* 根据需要调整高度 */
+	border: none;
+	background: #EBEBEB;
+}
+
+.item-page-box h2 {
+	padding: 10px 0px; /* 根据需要调整间距 */
+	color: #333333;
+	font-size: 24px; /* 根据需要调整字体大小 */
+}
+
+.item-page div[class="item-font"] {}
+
+.item-font h3 {
+	line-height: 40px; /* 根据需要调整行高 */
+	color: #333333;
+	font-size: 18px; /* 根据需要调整字体大小 */
+}
+
+.item-font p {
+	line-height: 25px; /* 根据需要调整行高 */
+	font-size: 16px; /* 根据需要调整字体大小 */
+}
+
+.item-font a {
+	color: #337AB7;
+}
+
+.item-font img {
+	margin-top: 50px; /* 根据需要调整间距 */
+	box-shadow: 4px 4px 6px #EAEAEA; /* 根据需要调整阴影效果 */
+	float: none; /* 取消浮动 */
+	height: auto; /* 改为自适应高度 */
+	width: 100%; /* 改为占满容器宽度 */
+}
+
+#footer {
+	padding-top: 20px;
+	padding-right: 20px;
+	text-align: right; /* 修改对齐方式 */
+}
+
+#footer a {
+	padding-right: 20px;
+	color: #5F5F5F;
+	transition: 0.4s;
+}
+
+#footer a:hover {
+	color: #337AB7;
+}
+
+#footer p[id="counter"] {
+	color: #337AB7;
+	padding-left: 20px; /* 根据需要调整间距 */
+}
+
+.box a {
+	overflow: hidden;
+	color: white;
+	margin-top: 10px; /* 根据需要调整间距 */
+	float: none; /* 取消浮动 */
+	background: #f8a5c2;
+	width: 80px; /* 根据需要调整宽度 */
+	height: 40px;
+	padding-top: 10px; /* 根据需要调整间距 */
+	padding-right: 5px; /* 根据需要调整间距 */
+	white-space: nowrap;
+	transition: 0.4s;
+	box-shadow: 2px 4px 6px #EAEAEA; /* 根据需要调整阴影效果 */
+}
+
+.box a:hover {
+	width: 100px; /* 根据需要调整宽度 */
+}
